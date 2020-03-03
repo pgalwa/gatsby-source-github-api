@@ -17,6 +17,7 @@ exports.sourceNodes = (
       createNode({
         data: result.data,
         id: result.id || uuid(),
+        errors: result.errors || [],
         parent: null,
         children: [],
         internal: {
